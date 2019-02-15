@@ -6,12 +6,3 @@
 
 [context.v3-dev]
   command = "grunt prep-release && npm run sri"
-
-[context.branch-deploy.v3-dev-xmr-netlify]
-  command = "grunt prep-release && npm run sri"
-
-[context.branch-deploy.v3-dev]
-  command = "grunt prep-release && npm run sri"
-
-[context.deploy-preview.v3-dev]
-  command = "grunt prep-release && npm run sri"
